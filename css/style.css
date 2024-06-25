@@ -68,6 +68,10 @@ menu a:hover {
     font-size: 14px;
 }
 
+main {
+    width: 100%;
+}
+
 section {
     width: 100%;
     position: relative;
@@ -82,15 +86,92 @@ section {
 }
 
 .preco {
-    color: blue;
+    color: #090e5e;
     padding: 90px;
+    font-size: 24px;
+}
+
+.potencia {
+    color: #090e5e;
+    font-size: 24px;
+    text-align: center;
+}
+
+.torque {
+    color: #090e5e;
+    font-size: 24px;
+    right: 100px;
+    text-align: right;
+    padding: 59px;
 }
 
 .galeria {
-    color: #090e5e;
+    width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 20px;
 }
 
 .galeria h2 {
+    width: 1280px;
+    font-size: 42px;
+    text-transform: uppercase;
+    color: #090e5e;
+}
+
+.galeria h2 span {
+    color: #090e5e;
+    position: relative;
+    top: 0px;
+}
+
+.thumbs {
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+    justify-content: center;
+}
+
+.thumb {
+    width: 200px;
+    height: 100px;
+}
+
+.thumb img {
+    width: 100%;
+    height: 100px;
+}
+
+.large {
+    width: 630px;
+}
+
+.img-large {
+    width: 1280px;
+}
+
+.img-large img {
+    width: 1280px;
+}
+
+.titulo-cores {
+    color: #242424;
+    font-size: 24px;
     text-align: center;
-    font-size: 48px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cor {
+    width: 100%;
+}
+
+.cor img {
+    width: 1280px;
 }
