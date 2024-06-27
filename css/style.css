@@ -106,32 +106,35 @@ section {
 }
 
 .galeria {
-    width: 1280px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
     gap: 20px;
+    background-color: #090e5e;
 }
 
 .galeria h2 {
-    width: 1280px;
+    width: 100%;
     font-size: 42px;
     text-transform: uppercase;
-    color: #090e5e;
+    color: #fafafa;
 }
 
 .galeria h2 span {
     color: #090e5e;
     position: relative;
     top: 0px;
+    top: 16px;
+    left: -20px;
 }
 
 .thumbs {
-    width: 1100px;
+    width: 630px;
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
-    gap: 90px;
-    justify-content: center;
+    gap: 15px;
 }
 
 .thumb {
@@ -149,11 +152,11 @@ section {
 }
 
 .img-large {
-    width: 1280px;
+    width: 100%;
 }
 
 .img-large img {
-    width: 1280px;
+    width: 100%;
 }
 
 .titulo-cores {
@@ -174,4 +177,54 @@ section {
 
 .cor img {
     width: 1280px;
+}
+
+footer {
+    width: 100%;
+    background-color: #181818;
+}
+
+footer nav {
+    width: 1280px;
+    display: flex;
+    gap: 32px;
+    margin: 0 auto;
+}
+
+footer nav menu,
+footer nav .social {
+    width: 624px;
+    display: flex;
+}
+
+footer nav menu {
+    flex-wrap: wrap;
+    gap: 4px 16px;
+}
+
+footer nav menu a {
+    display: flex;
+    width: fit-content;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    color: #fafafa text-decoration;
+}
+
+footer nav .social {
+    gap: 16px;
+    justify-content: end;
+    align-items: center;
+    color: #fafafa;
+}
+
+footer .info {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 32px 0;
+    color: #fafafa;
+}
+
+footer .info p {
+    font-size: 14px;
 }
